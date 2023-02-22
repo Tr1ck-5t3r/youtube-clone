@@ -1,0 +1,79 @@
+.logo__image{
+    height: 20px;
+    width: auto;
+}
+.header{
+    margin: 0;
+    display: flex;
+    height: 55px;
+    padding: 0 20px;
+    align-items: center;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    flex: 0.3;
+}
+.menu__button{
+    margin: 0px 0px 0px -5px;
+    padding: 8px;
+}
+.menu__button:hover{
+    background-color: #212121;
+    border-radius: 51%;
+}
+.logo
+{
+    margin: 0px 0px 0px 8px;
+    padding: 10px;
+}
+.header__center{
+    flex: 0.4;
+    display: flex;
+}
+.header__input{
+    border: 1px solid #212121;
+    height: 40px;
+    flex: 0.9;
+    background-color: transparent;
+    color: #ffffff;
+    margin-left: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 15px;
+}
+.search__button{
+    background-color: #212121;
+    padding: 5px 10px;
+    height: 40px;
+    flex: 0.1;
+    min-width: 50px;
+    border-top-right-radius : 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0.3;
+}
+.header__right__icons{
+    margin-right: 10px;
+    padding: 8px;
+}
+.header__right__icons:hover{
+    background-color: #212121;
+    border-radius: 50%;
+}
+.header__right__avatar{
+    margin-right: 10px;
+}
+.search__bar{
+    display: flex;
+    align-items: center;
+}
